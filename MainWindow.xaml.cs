@@ -19,7 +19,7 @@ namespace WpfApp1
     public partial class MainWindow : Window
 
     {
-        private List<double> list_numbers = new List<double>(); //Array of numbers 
+        private List<double> list_numbers = new List<double>(); //List of numbers 
         private int my_operation_id = 0; //the id of the operation im doing
         private double math_result = 0; // the result of my arithmetic operation
         private Boolean is_correct = false; // this boolean will tell me if the input value is correct
