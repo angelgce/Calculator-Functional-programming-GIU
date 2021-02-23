@@ -39,7 +39,7 @@ namespace WpfApp1
         private void Button_Click(object sender, RoutedEventArgs e)
 
         {
-            operation(" + ",1);
+            operation(" + ", 1);
             result = numbers.Aggregate((x, y) => x + y);
             resultado.Content = result;
 
@@ -48,37 +48,37 @@ namespace WpfApp1
 
         private void resta_click(object sender, RoutedEventArgs e)
         {
-            operation(" - ",2);
+            operation(" - ", 2);
             if (is_correct)
             {
-result = numbers.Aggregate((x, y) => x - y);
-            resultado.Content = result;
+                result = numbers.Aggregate((x, y) => x - y);
+                resultado.Content = result;
             }
-            
+
         }
 
 
 
         private void mul_click(object sender, RoutedEventArgs e)
         {
-            operation(" * ",3);
+            operation(" * ", 3);
             if (is_correct)
             {
- result = numbers.Aggregate((x, y) => x * y);
-            resultado.Content = result;
+                result = numbers.Aggregate((x, y) => x * y);
+                resultado.Content = result;
             }
-           
+
         }
 
         private void div_click(object sender, RoutedEventArgs e)
         {
-            operation(" / ",4);
+            operation(" / ", 4);
             if (is_correct)
             {
-  result = numbers.Aggregate((x, y) => x / y);
-            resultado.Content = result;
+                result = numbers.Aggregate((x, y) => x / y);
+                resultado.Content = result;
             }
-          
+
         }
 
         private void clear(object sender, RoutedEventArgs e)
@@ -93,8 +93,9 @@ result = numbers.Aggregate((x, y) => x - y);
 
             try
             {
-                if (position !=click) {
-                    Console.WriteLine(click +" | " +position);
+                if (position != click)
+                {
+                    Console.WriteLine(click + " | " + position);
                     numbers.RemoveAll(item => item >= 0);
                     numbers.Add(result);
                 }
@@ -114,6 +115,6 @@ result = numbers.Aggregate((x, y) => x - y);
             var.Clear();
         }
 
-     
+
     }
 }
