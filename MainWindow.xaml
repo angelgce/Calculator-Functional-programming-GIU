@@ -1,0 +1,26 @@
+﻿<Window x:Name="fram" x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="286.082" Width="543.299" Background="#FFD6D6D6">
+    <Grid Margin="0,0,2,5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="suma" Content="+" HorizontalAlignment="Left" Margin="431,15,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Button_Click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Background="#FF363535"/>
+        <TextBox x:Name="var" HorizontalAlignment="Left" Height="41" Margin="10,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="411" AutomationProperties.Name="num" BorderBrush="Black"/>
+        <Label x:Name="historial" Content="" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="191" Opacity="0.6" Height="34" FontSize="16"/>
+        <Label x:Name="resultado" Content="" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Height="114" Width="411" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="resta" Content="-" HorizontalAlignment="Left" Margin="431,61,0,0" VerticalAlignment="Top" Width="88" Height="41" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Click="resta_click"/>
+        <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Margin="431,107,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="mul_click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Margin="431,153,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="div_click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+        <Button x:Name="pow" Content="CLEAR" HorizontalAlignment="Left" Margin="431,199,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="clear" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+
+    </Grid>
+</Window>
