@@ -13,14 +13,14 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="suma" Content="+" HorizontalAlignment="Left" Margin="431,15,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Button_Click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Background="#FF363535"/>
-        <TextBox x:Name="var" HorizontalAlignment="Left" Height="41" Margin="10,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="411" AutomationProperties.Name="num" BorderBrush="Black"/>
-        <Label x:Name="historial" Content="" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="191" Opacity="0.6" Height="34" FontSize="16"/>
-        <Label x:Name="resultado" Content="" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Height="114" Width="411" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Button x:Name="resta" Content="-" HorizontalAlignment="Left" Margin="431,61,0,0" VerticalAlignment="Top" Width="88" Height="41" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Click="resta_click"/>
-        <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Margin="431,107,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="mul_click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
-        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Margin="431,153,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="div_click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
-        <Button x:Name="pow" Content="CLEAR" HorizontalAlignment="Left" Margin="431,199,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="clear" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+        <Button x:Name="suma" Content="+" HorizontalAlignment="Left" Margin="431,15,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Sum_Click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Background="#FF363535"/>
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="41" Margin="10,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="411" AutomationProperties.Name="num" BorderBrush="Black"/>
+        <Label x:Name="history" Content="" HorizontalAlignment="Left" Margin="10,165,0,0" VerticalAlignment="Top" Width="191" Opacity="0.6" Height="34" FontSize="16"/>
+        <Label x:Name="label_result" Content="0" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Height="114" Width="411" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Button x:Name="resta" Content="-" HorizontalAlignment="Left" Margin="431,61,0,0" VerticalAlignment="Top" Width="88" Height="41" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1" Click="Sub_Click"/>
+        <Button x:Name="mul" Content="*" HorizontalAlignment="Left" Margin="431,107,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Milt_Click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Margin="431,153,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Div_Click" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
+        <Button x:Name="pow" Content="CLEAR" HorizontalAlignment="Left" Margin="431,199,0,0" VerticalAlignment="Top" Width="88" Height="41" Click="Clear" FontSize="18" FontWeight="Bold" FlowDirection="RightToLeft" Background="#FF363535" Foreground="#FFD6D2D2" BorderBrush="#FFC1C1C1"/>
 
     </Grid>
 </Window>
